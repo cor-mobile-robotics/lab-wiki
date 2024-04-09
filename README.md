@@ -2,8 +2,6 @@
 The Wiki for the Mobile Robotics Lab
 
 
-## Network
-[a relative link](network.md)
-
-## Mocap
-[a relative link](mocap.md)
+## Manuals
+[Network](network.md)
+[Mocap](mocap.md)
