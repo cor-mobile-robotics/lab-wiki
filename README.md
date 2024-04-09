@@ -3,5 +3,5 @@ The Wiki for the Mobile Robotics Lab
 
 
 ## Manuals
-[Network](network.md) <br />
-[Mocap](mocap.md)
+[Local Network](network.md) <br />
+[Viken Motion Capture](mocap.md)
