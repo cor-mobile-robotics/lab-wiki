@@ -2,7 +2,7 @@
 The Wiki for the Mobile Robotics Lab
 
 ## Usage
-[General safety](safety.md) <br />
+[Safety Instructions](safety.md) <br />
 [Booking Slots](calendar.md) <br />
 
 ## Manuals
