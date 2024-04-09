@@ -3,5 +3,5 @@ The Wiki for the Mobile Robotics Lab
 
 
 ## Manuals
-[Network](network.md)
+[Network](network.md) --
 [Mocap](mocap.md)
