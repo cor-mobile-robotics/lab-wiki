@@ -3,5 +3,6 @@ The Wiki for the Mobile Robotics Lab
 
 
 ## Manuals
-[Network](network.md)__
-[Mocap](mocap.md)
+[Local Network](network.md) <br />
+[Vicon Motion Capture](mocap.md) <br />
+[Camera Sytem](cameras.md)
