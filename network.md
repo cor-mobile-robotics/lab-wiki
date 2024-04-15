@@ -1,35 +1,45 @@
+# Network Configuration
 
-# Mobile Robotics Lab Network
+> [! warning]
+> Please don't re-configure this router without coordinating with @lassepe or Thijs Niesten.
 
-## TP-Link Router
-
-### Credentials
+## Credentials
 
 ```
-wifi-pass: (check bottom of router)
+wifi-pass: <shared with you upon lab-saftey training; do not share with others>
 ssid: TP-Link_5F80_5G
 router-ip: 192.168.0.1
 ```
 
-### Static IP Bindings
+## IP Addressing
 
-The following robots have a statically bound IP in the router:
+> [! warning]
+> The router software does not resolve hostnames (no local DNS). If you need that feature (e.g. for remote control of the Jackal), edit your `/etc/hosts` file accordingly.
 
-| Robot                                       | Interface     | IP                |
-| ------------------------------------------- | ------------- | ----------------- |
-| [Jackal 01](../../robots/jackal#Jackal01)   | WIFI          | `192.168.0.101`   |
-| [Jackal 02](../../robots/jackal#Jackal02)   | WIFI          | `192.168.0.102`   |
-| [Jackal 03](../../robots/jackal#Jackal03)   | WIFI          | `192.168.0.103`   |
-| [Jackal 04](../../robots/jackal#Jackal04)   | WIFI          | `192.168.0.104`   |
-| [Dingo 1](../../robots/dinova/dingo.md#Dingo1)   | WIFI          | `192.168.0.121`   |
-| [Dingo 2](../../robots/dinova/dingo.md#Dingo2)   | WIFI          | `192.168.0.122`   |
+- The router is running a DHCP server. Hence, when you connect, **you will get an IP address dynamically assigned**. This is the default behavior for most devices.
+- The DHCP server is configured to assign  **fixed IPs to robots and devices that permanently reside in the lab space**. Robots should connect via DHCP and *not* locally configure their IP. All IP configuration is only in the router.
 
-# Miscellaneous Technical Notes
+The following devices have permanent IPs in the DHCP server of the lab router:
 
-- Please don't re-configure this router without coordinating with @lassepe or Thijs Niesten.
-- The router software does not resolve hostnames (no local DNS). If you need that feature (e.g. for remote control of the Jackal), edit your `/etc/hosts` file accordingly.
+| Device (Hostname if different) | Interface     | IP                |
+| -------------------            | ------------- | ----------------- |
+| Router                         | Ethernet      | `192.168.0.1`     |
+| Vicon-PC                       | Ethernet      | `192.168.0.232`   |
+| jackal-laptop                  | Wifi          | `102.168.0.200`   |
+| Jackal 01                      | WIFI          | `192.168.0.101`   |
+| Jackal 02                      | WIFI          | `192.168.0.102`   |
+| Jackal 03 (cpr-j100-0594)      | WIFI          | `192.168.0.103`   |
+| Jackal 04                      | WIFI          | `192.168.0.104`   |
+| Dingo 1 (cpr-do100-duot13)     | WIFI          | `192.168.0.121`   |
+| Dingo 2 (cpr-do100-10000062)   | WIFI          | `192.168.0.122`   |
+| Falcon 1                       | WIFI          | `192.168.0.141`   |
+| Hovergames  Drone 1            | WIFI          | `192.168.0.151`   |
+| Hovergames  Drone 2            | WIFI          | `192.168.0.152`   |
 
 ## VLAN
+
+> [! note]
+> This is primarily an internal note for the admins and resides here to increase the truck factor.
 
 The mobile robotics lab has its own VLAN. The VLAN can be configured only by the admins.
 Currently, admins include:
