@@ -1,6 +1,6 @@
 # Network Configuration
 
-> [! warning]
+> [!important]
 > Please don't re-configure this router without coordinating with @lassepe or Thijs Niesten.
 
 ## Credentials
@@ -13,7 +13,7 @@ router-ip: 192.168.0.1
 
 ## IP Addressing
 
-> [! warning]
+> [!important]
 > The router software does not resolve hostnames (no local DNS). If you need that feature (e.g. for remote control of the Jackal), edit your `/etc/hosts` file accordingly.
 
 - The router is running a DHCP server. Hence, when you connect, **you will get an IP address dynamically assigned**. This is the default behavior for most devices.
@@ -38,7 +38,7 @@ The following devices have permanent IPs in the DHCP server of the lab router:
 
 ## VLAN
 
-> [! note]
+> [!note]
 > This is primarily an internal note for the admins and resides here to increase the truck factor.
 
 The mobile robotics lab has its own VLAN. The VLAN can be configured only by the admins.
