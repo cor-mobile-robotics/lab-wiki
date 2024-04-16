@@ -1,7 +1,7 @@
 # Network Configuration
 
 > [!important]
-> Please don't re-configure this router without coordinating with @lassepe or Thijs Niesten.
+> Please don't re-configure this router without coordinating with Lasse or Thomas.
 
 ## Credentials
 
