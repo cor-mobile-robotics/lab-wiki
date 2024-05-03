@@ -14,7 +14,7 @@ Press on a fire button (red boxes)
 
 Call 015-2788888 (or 112)
 
-Warn people and go ouside
+Warn people and go outside
 
 ## Batteries
 
