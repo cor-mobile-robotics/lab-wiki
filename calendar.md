@@ -1,7 +1,7 @@
 # Booking the Lab | The Lab Calendar
 
 >[!important]
-> Before using the lab for the first time you *must* complete a [TODO: safety briefing and onboarding]().
+> Before using the lab for the first time you *must* complete a [onboarding and safety briefing](../onboarding.md).
 
 We aim to minmize the bureaucratic overhead of using the lab.
 Nonetheless, there are a few rules to coordinate the usage of this valuable resource:
