@@ -1,6 +1,9 @@
 # Wiki for the Mobile Robotics Lab
 The Wiki for the Mobile Robotics Lab
 
+> [!note]
+> This wiki is a joint effort of all lab users. If instructions are unclear, please file a pull request of open an issue.
+
 ## Before the First Use
 
 Before you use the lab for the first time, please follow these steps:
