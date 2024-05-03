@@ -2,6 +2,7 @@
 The Wiki for the Mobile Robotics Lab
 
 ## Usage
+[Getting Access](access.md)
 [Safety Instructions](safety.md) <br />
 [Booking Slots](calendar.md) <br />
 
