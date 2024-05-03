@@ -8,7 +8,7 @@ The Wiki for the Mobile Robotics Lab
 
 Before you use the lab for the first time, please follow these steps:
 
-**External users only:**
+**External users only**
 - Contact [Javier Alonso-Mora](mailto://J.AlonsoMora@tudelft.nl) to ask you can use the lab.
 - Upon approval by Javier, write an email to the [CoR secretaries](Secretariaat-cor-me@tudelft.nl) to request access to the lab space with [Javier Alonso-Mora](mailto://J.AlonsoMora@tudelft.nl) in cc.
 
