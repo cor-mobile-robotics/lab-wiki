@@ -32,6 +32,10 @@ The following devices have permanent IPs in the DHCP server of the lab router:
 | Jackal 04                      | WIFI          | `192.168.0.104`   |
 | Dingo 1 (cpr-do100-duot13)     | WIFI          | `192.168.0.121`   |
 | Dingo 2 (cpr-do100-10000062)   | WIFI          | `192.168.0.122`   |
+| JetRacer 1                     | WIFI          | `192.168.0.131`   |
+| JetRacer 2                     | WIFI          | `192.168.0.132`   |
+| JetRacer 3                     | WIFI          | `192.168.0.133`   |
+| JetRacer 4                     | WIFI          | `192.168.0.134`   |
 | Falcon 1                       | WIFI          | `192.168.0.141`   |
 | Hovergames  Drone 1            | WIFI          | `192.168.0.151`   |
 | Hovergames  Drone 2            | WIFI          | `192.168.0.152`   |
