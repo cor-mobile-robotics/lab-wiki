@@ -8,6 +8,7 @@
 ```
 wifi-pass: <shared with you upon lab-saftey training; do not share with others>
 ssid: mrl-wifi
+ssid-5g: mrl-wifi-5g
 router-ip: 192.168.0.1
 ```
 
