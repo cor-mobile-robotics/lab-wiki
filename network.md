@@ -7,7 +7,7 @@
 
 ```
 wifi-pass: <shared with you upon lab-saftey training; do not share with others>
-ssid: TP-Link_5F80_5G
+ssid: mrl-wifi
 router-ip: 192.168.0.1
 ```
 
