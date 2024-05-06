@@ -1,7 +1,7 @@
 # Booking the Lab | The Lab Calendar
 
 >[!important]
-> Before using the lab for the first time you *must* complete a [onboarding and safety briefing](../onboarding.md).
+> Before using the lab for the first time you *must* complete a [onboarding and safety briefing](https://github.com/cor-mobile-robotics/lab-wiki?tab=readme-ov-file#before-the-first-use).
 
 We aim to minmize the bureaucratic overhead of using the lab.
 Nonetheless, there are a few rules to coordinate the usage of this valuable resource:
