@@ -15,8 +15,8 @@ Bookings for the lab can be made via the associated [Calendar](https://outlook.o
 - Anyone can add a *view* of this calendar as in the outlook web-client by via `click add calendar -> click add from directory -> select your account form the dropdown menu -> enter MobileRoboticsLab-ME@tudelft.nl as "person"`.
 
 ### Getting access to the calendar
-- Any exisiting member of the functional mailbox can add new users via [this form](https://tudelft.topdesk.net/tas/public/ssp/content/serviceflow?unid=0cae47da8eea48688fbd5e39457b6ba6).
 - The first time you request access to the lab, you can also request access to this calendar.
+- Any exisiting member of the functional mailbox can add new users via [this form](https://tudelft.topdesk.net/tas/public/ssp/content/serviceflow?unid=0cae47da8eea48688fbd5e39457b6ba6).
 - External members and student can make bookings through their supervisors.
 
 ### Creating a booking
