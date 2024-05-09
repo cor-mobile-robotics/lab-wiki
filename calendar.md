@@ -3,9 +3,10 @@
 >[!important]
 > Before using the lab for the first time you *must* complete a [onboarding and safety briefing](https://github.com/cor-mobile-robotics/lab-wiki?tab=readme-ov-file#before-the-first-use).
 
-Bookings for the lab can be made via the associated [Calendar](https://outlook.office.com/calendar/MobileRoboticsLab-ME@tudelft.nl/view/week) to the functional mailbox `MobileRoboticsLab-ME@tudelft.nl`. We aim to minmize the bureaucratic overhead of using the lab. Nonetheless, there are a few rules to coordinate the usage of this valuable resource:
+Bookings for the lab can be made via the associated [Calendar](https://outlook.office.com/calendar/MobileRoboticsLab-ME@tudelft.nl/view/week) to the functional mailbox `MobileRoboticsLab-ME@tudelft.nl`.
 
 ### Booking Rules
+ We aim to minmize the bureaucratic overhead of using the lab. Nonetheless, there are a few rules to coordinate the usage of this valuable resource:
 
 - Bookings are on a FIFO basis: each person creating a booking in the calendar should add a "rank" (1st, 2nd, 3rd  etc.) to their booking indicating whether they are 1st, 2nd, 3rd person to make a booking at that time slot. Users with a lower "rank" integer have the right to tell users with a higher rank integer to leave the space if their experiment requires it. This also includes the desks associated with the lab.
   - Please also indicate in the title of your booking which platform you will be using to give others an idea of whether they can run their platform in parallel (e.g., ground robots and drones can often use the space at the same time)
