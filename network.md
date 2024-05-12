@@ -40,6 +40,7 @@ The following devices have permanent IPs in the DHCP server of the lab router:
 | Falcon 1                       | WIFI          | `192.168.0.141`   |
 | Hovergames  Drone 1            | WIFI          | `192.168.0.151`   |
 | Hovergames  Drone 2            | WIFI          | `192.168.0.152`   |
+| Spot                           | WIFI          | `192.168.2.11`    |
 
 ## VLAN
 
