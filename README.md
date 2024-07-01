@@ -28,4 +28,4 @@ If you do not have booking-rights for the calendar, you must make your bookings 
 ## Manuals
 [Local Network](network.md) <br />
 [Vicon Motion Capture](mocap.md) <br />
-[Camera Sytem](cameras.md)
+[Video Camera System](cameras.md)
