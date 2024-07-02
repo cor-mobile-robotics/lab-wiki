@@ -1,18 +1,19 @@
-# Video Camera System
-The purpose of this tutorial is to provide information about the video camera system (VCS) and how to use. It consists of the following subsections:
+# Media System
+The purpose of this tutorial is to provide information about the Media System and how to use. It consists of the following subsections:
 
-- [What is the VCS?](#what-is-the-vcs)
+- [What is the Media System?](#what-is-the-media-system)
 - [How to set up?](#how-to-set-up)
 - [How to record a video?](#how-to-record-a-video)
 - [How to save a recorded video?](#how-to-save-a-recorded-video)
 - [How to adjust camera settings?](#how-to-adjust-camera-settings)
 - [Troubleshooting](#troubleshooting)
+- [Acknowledgements](#acknowledgements)
 
 > In case you have any questions, please first consult the corresponding user manual, then contact Dennis Benders (mailto:d.benders@tudelft.nl).
 
 
-## What is the VCS?
-The VCS is a video camera system that makes it easy to display video streams and record advanced experiment videos by simply pressing one button. It consists of the following main components:
+## What is the Media System?
+The Media System is a video camera system that makes it easy to display video streams and record advanced experiment videos by simply pressing one button. It consists of the following main components:
 - 5 [Panasonic DC-BGH1E](https://www.panasonic.com/nl/consumer/cameras-camcorder/lumix-box-camera/dc-bgh1.html) cameras. The IDs, names, location and lens type for each of the cameras are given in the table below.
 - 1 [Netgear GSM4212UX AV-line M4250](https://www.netgear.com/business/wired/switches/fully-managed/gsm4212ux/) network switch.
 - 1 [Blackmagic ATEM SDI Extreme ISO](https://www.blackmagicdesign.com/products/atemsdi/techspecs/W-APS-36) video mixer.
@@ -79,7 +80,7 @@ Finally, press `FTB` (below the `VIDEO OUT` section) if you want to fade out the
 ## How to save a recorded video?
 After pressing `STOP` the videos streams are automatically saved on the SSD. You can unplug the SSD without turning off the mixer and plug it into your own device. The files will be stored in a directory called `TEST #` (sorry, this name was configured when setting up and never changed afterwards :sweat_smile:). A new `TEST #` directory is created for every set of videos that was recorded in a limited time interval.
 
-In each `TEST #` directory, you can find `Audio Source Files` (not used), `Video ISO Files` (containing the separate video streams), a `.drp` file and a `.mp4` file. The `.mp4` file contains the *program* view recording.
+In each `TEST #` directory, you can find `Audio Source Files`, `Video ISO Files`, a `.drp` file and a `.mp4` file. The `.mp4` file contains the *program* view recording. The `Video ISO Files` directory contains the separate video streams.
 
 You can copy the desired files to your own device.
 
@@ -91,15 +92,19 @@ The camera settings can be adjusted using a program called *LUMIX Tether*. This 
 
 > It might happen that not all cameras are listed. In that case, just click *Update* in the *CAMERA* window, or close and open the program again.
 
-To go to the settings of a specific camera, click on the name of the camera. This will open the *Recording Panel*. You can use this panel to record an on-camera video with specific recording settings. This, however, goes beyond the scope of this tutorial, so please check the [program manual](https://eww.pavc.panasonic.co.jp/dscoi/lumixtether/OperationGuide(en).pdf) if you want to do this. It might be helpful if you want to record a video in 240 FPS.
+To go to the settings of a specific camera, click on the name of the camera. This will open the *Recording Panel*, if not already open. You can use this panel to record an on-camera video with specific recording settings. This, however, goes beyond the scope of this tutorial, so please check the [program manual](https://eww.pavc.panasonic.co.jp/dscoi/lumixtether/OperationGuide(en).pdf) if you want to do this. It might be helpful if you want to record a video in 240 FPS.
 
-To go further to the camera settings, click on the `LV` (Live View) button in the top-left corner of the *Recording Panel*. This will open a new window. In this window, click on `MENU` (in the top-right corner). Now, you are able to adjust anything you want. Please check the [camera manual](https://eww.pavc.panasonic.co.jp/dscoi/DC-BGH1/E/DC-BGH1_DVQP2279_eng/index.htm) for more information.
+To go further to the camera settings, click on the `LV` (*Live View*) button in the top-left corner of the *Recording Panel*. This will open a new *Live View* window. In this window, click on `MENU` (in the top-right corner). Now, you are able to adjust anything you want. Please check the [camera manual](https://eww.pavc.panasonic.co.jp/dscoi/DC-BGH1/E/DC-BGH1_DVQP2279_eng/index.htm) for more information.
 
 > [!important]
-> Make sure to write down all settings changes that you do. Revert those changes at the end of the your lab session, so the next lab user can use the system out of the box.
+> Make sure to write down all setting changes that you do. Revert those changes at the end of the your lab session, so the next lab user can use the system out of the box.
 
 
 ## Troubleshooting
 **Why do I see a level bar and the camera information in my video stream? Is this also recorded?**
 
 If you see the camera information being displayed on the LG monitor, then it means this information is part of the SDI stream and will thus be recorded if you press `REC`. We have already experienced that one of the video streams suddenly includes this information. To solve the problem, go to the camera settings (see [How to adjust camera settings?](#how-to-adjust-camera-settings)), then Setup menu, then IN/OUT, then `Info Display` (see the [list of menus in the manual](https://eww.pavc.panasonic.co.jp/dscoi/DC-BGH1/E/DC-BGH1_DVQP2279_eng/chapter12_01.htm)). In the appearing menu choose either `HDMI` or `OFF`. After clicking on the desired option, the video stream should be clean again. If you want to see this information, but not record it, you can attach a small, portable monitor (stored in the AMR2 cabinet) to the camera via HDMI and display this information on the HMDI output.
+
+
+## Acknowledgements
+In particular, we would like to thank Stephan Voogt and Sander van Duijn from the New Media Centre at TU Delft for their support with choosing the components of the Media System, installing the system, and explaining how to use it.
