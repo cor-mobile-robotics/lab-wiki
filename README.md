@@ -13,9 +13,10 @@ Before you use the lab for the first time, please follow these steps:
 - Upon approval, write an email to the [CoR secretaries](mailto:Secretariaat-cor-me@tudelft.nl) to request access to the lab space with [Javier Alonso-Mora](mailto://J.AlonsoMora@tudelft.nl) in cc.
 
 **Everyone**
-- Request an short onboarding session and safety briefing with one of the [lab technicians](https://www.tudelft.nl/en/me/about/departments/cognitive-robotics-cor/people/technical-support) or existing users of the lab (most [PhD's of Javier's group](https://autonomousrobots.nl/people/) and [Laura's group](https://r2clab.com/?page_id=286#group-phd-id) are users).
+- The primary point of contact for practical things of the MRL is [Sihao Sun](https://www.tudelft.nl/staff/s.sun-2/).
+- Request a short onboarding session and safety briefing with one of the [lab technicians](https://www.tudelft.nl/en/me/about/departments/cognitive-robotics-cor/people/technical-support), Sihao, or existing users of the lab (most members of [Javier's group](https://autonomousrobots.nl/people/) and [Laura's group](https://r2clab.com/?page_id=286#group-phd-id) are users).
 As part of this email, you may also request access to the lab [calendar](./calendar.md) (requires a TUD netid).
-If you do not have booking-rights for the calendar, you must make your bookings through existing lab members. Again, most [members of Javier's group]([https://www.tudelft.nl/en/me/about/departments/cognitive-robotics-cor/people/learning-and-autonomous-control](https://autonomousrobots.nl/people/)), [Laura's group](https://r2clab.com/?page_id=286#group-phd-id) as well as the [CoR Technicians](https://www.tudelft.nl/en/me/about/departments/cognitive-robotics-cor/people/technical-support) can help you with this.
+If you do not have booking-rights for the calendar, you must make your bookings through existing lab member.  Again, most members of [Javier's group](https://autonomousrobots.nl/people/), [Laura's group](https://r2clab.com/?page_id=286#group-phd-id) as well as the [CoR Technicians](https://www.tudelft.nl/en/me/about/departments/cognitive-robotics-cor/people/technical-support) can help you with this.
 - As part of the initial onboarding session, you will learn:
   - Which [safety considerations](safety.md) to take during experiments.
   - Where to get the keys for the lab equipment.
