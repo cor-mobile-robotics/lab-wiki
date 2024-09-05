@@ -9,7 +9,7 @@ The Wiki for the Mobile Robotics Lab of the Cognitive Robotics department at TU 
 Before you use the lab for the first time, please follow these steps:
 
 **Users from outside of LAC/CoR only**
-- We welcome everyone to use the system. Please first contact [Javier Alonso-Mora](mailto:J.AlonsoMora@tudelft.nl) with your request.
+- We welcome everyone to use the system. If you are from outside of LAC/CoR, please first contact [Javier Alonso-Mora](mailto:J.AlonsoMora@tudelft.nl) with your request.
 - Upon approval, write an email to the [CoR secretaries](mailto:Secretariaat-cor-me@tudelft.nl) to request access to the lab space with [Javier Alonso-Mora](mailto://J.AlonsoMora@tudelft.nl) in cc.
 
 **Everyone**
