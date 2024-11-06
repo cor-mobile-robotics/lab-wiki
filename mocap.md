@@ -15,6 +15,9 @@ If the camera has flickering lights, the camera is moved and might need to be ca
 - **Wand**: This is a T-shaped device that calibrates the cameras which should be used before any experiments! You can see the battery indication on top and the wand can be charged with a charger. Press the button to turn on "Strope" which gives brighter leds (at 100Hz) which are useful for a big space like our dome.
 - **System**: The System Latency is the total system latency of around ~2.8ms.
 
+## Tracking volume
+The effective volume of mocap is about 13 (length) by 7.5 (width) by 6 (height) meters.
+
 ## Network:
 
 See [this guide](network.md).
