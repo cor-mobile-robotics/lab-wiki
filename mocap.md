@@ -1,7 +1,7 @@
 # Vicon Motion Capture
 
 A [motion capture system](https://en.wikipedia.org/wiki/Motion_capture) is a set of external sensors (typically cameras) which allow you to capture the position and orientation (pose) of objects in a tracking volume. In the context of robotics, this allows us to conduct control and motion-planning experiments without having worry about perception and state estimation.
-The [Vicon system](https://www.vicon.com/) is the motion capture system installed in the Multi-Robotics Lab at CoR, 3ME. The system is able to achieve submillimeter motion tracking, and it consists of 12 cameras hanging several meters above the ground. The information gathered here are the notes taken during the Vicon-training in November 2023.
+The [Vicon system](https://www.vicon.com/) is the motion capture system installed in the Multi-Robotics Lab at CoR, ME. The system is able to achieve submillimeter motion tracking, and it consists of 12 cameras hanging several meters above the ground. The information gathered here are the notes taken during the Vicon-training in November 2023.
 **Email ProCare (support):**: rprinsen@procarebv.nl
 
 
@@ -9,7 +9,7 @@ The [Vicon system](https://www.vicon.com/) is the motion capture system installe
 > TODO: There is a lot of information low-level info in this section, needs cleanup once the setup is converged.
 
 ## Components:
-- **Cameras:**: There are different cameras in the set-up. The field-of-view (FOV) depends on the type of camera. The cameras with 8.5mm lenses on the long sides of the dome have a shorter focal distance and a wider view. The cameras on the short side of the dome have a 12.5mm lens and therefore a longer focal distance. The cameras are hung clockwise from 1-12. The total set of cameras could reach an accuracy of 0.017mm (tested in Oxford), but the error per camera can be higher than the total accuracy. The latency of the camera is due to onboard processing.
+- **Cameras:**: Vicon Vantage V5. There are different cameras in the set-up. The field-of-view (FOV) depends on the type of camera. The cameras with 8.5mm lenses on the long sides of the dome have a shorter focal distance and a wider view. The cameras on the short side of the dome have a 12.5mm lens and therefore a longer focal distance. The cameras are hung clockwise from 1-12. The total set of cameras could reach an accuracy of 0.017mm (tested in Oxford), but the error per camera can be higher than the total accuracy. The latency of the camera is due to onboard processing.
 If the camera has flickering lights, the camera is moved and might need to be calibrated. 
 - **Switch**:The IP address of the switch is 192.168.10.1. 
 - **Wand**: This is a T-shaped device that calibrates the cameras which should be used before any experiments! You can see the battery indication on top and the wand can be charged with a charger. Press the button to turn on "Strope" which gives brighter leds (at 100Hz) which are useful for a big space like our dome.
