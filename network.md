@@ -41,6 +41,8 @@ The following devices have permanent IPs in the DHCP server of the lab router:
 | Falcon 2                       | WIFI          | `192.168.0.142`   |
 | Falcon 3                       | WIFI          | `192.168.0.143`   |
 | Falcon 4                       | WIFI          | `192.168.0.144`   |
+| Falcon 6                       | WIFI          | `192.168.0.146`   |
+| Falcon 7                       | WIFI          | `192.168.0.147`   |
 | Hovergames  Drone 1            | WIFI          | `192.168.0.151`   |
 | Hovergames  Drone 2            | WIFI          | `192.168.0.152`   |
 | Mantis Drone 1          | WIFI          | `192.168.0.157`   |
