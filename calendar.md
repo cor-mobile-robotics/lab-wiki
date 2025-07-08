@@ -9,10 +9,11 @@ Bookings for the lab can be made via the associated [Calendar](https://outlook.o
  We aim to minmize the bureaucratic overhead of using the lab. Nonetheless, there are a few rules to coordinate the usage of this valuable resource:
 
 - Bookings are on a FIFO basis: each person creating a booking in the calendar should add a "rank" (1st, 2nd, 3rd  etc.) to their booking indicating whether they are 1st, 2nd, 3rd person to make a booking at that time slot. Users with a lower "rank" integer have the right to tell users with a higher rank integer to leave the space if their experiment requires it. This also includes the desks associated with the lab.
-  - Please also indicate in the title of your booking which platform you will be using to give others an idea of whether they can run their platform in parallel (e.g., ground robots and drones can often use the space at the same time)
-  - If you know in advance that no parallel bookings will be feasible (e.g. because you are recording a video for a publication) then please explicitly indicate that in the title of your booking.
+- Please also indicate in the title of your booking which platform you will be using to give others an idea of whether they can run their platform in parallel (e.g., ground robots and drones can often use the space at the same time)
+- If you know in advance that no parallel bookings will be feasible (e.g. because you are recording a video for a publication) then please explicitly indicate that in the title of your booking.
 - Users that didn't make a booking in the calendar can still use the lab. However, they have no priority and anyone with a booking may decide to kick them off if needed.
-
+- In case the lab is used exclusively for the purpose of, e.g., demo, classes, video recording for papers, please also add keyword "Exclusive" in the title so the others can adjust their plan accordingly. The exclusive period should be kept as short as possible to avoid affecting others' experiments.
+  
 ### Viewing the Calendar
 - Anyone can add a *view* of this calendar as in the outlook web-client by via `click add calendar -> click add from directory -> select your account form the dropdown menu -> enter MobileRoboticsLab-ME@tudelft.nl as "person"`.
 
