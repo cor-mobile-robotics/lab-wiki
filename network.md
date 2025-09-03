@@ -47,6 +47,9 @@ The following devices have permanent IPs in the DHCP server of the lab router:
 | Hovergames  Drone 2            | WIFI          | `192.168.0.152`   |
 | Mantis Drone 1          | WIFI          | `192.168.0.157`   |
 | Spot                           | WIFI          | `192.168.2.11`    |
+| Computemodule 1                | WIFI          | `192.168.0.161` |
+| Computemodule 2                | WIFI          | `192.168.0.162` |
+
 
 ## VLAN
 
