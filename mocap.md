@@ -80,3 +80,8 @@ Additional features are available in Vicon Tracker 4 (compatible with our camera
 - Showing live meshes over marker objects.
 - Indication how much a camera contributes to the tracking.
 - More information on the following website: https://docs.vicon.com/display/Tracker40/Vicon+Tracker+4+Migration+Guide.
+
+## Troubleshooting
+- The Vicon-Tracker shows only a black screen in the 3D perspective panel.
+   - This is very likely due to the fact that the GPU is undetected (You may first verify with msinfo32). Sometimes this is because the system upgrade invalidates the NVIDIA GPU driver.
+   - Solution: download the NVIDIA Driver app and reinstall the GPU driver. 
