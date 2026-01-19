@@ -19,7 +19,7 @@ Bookings for the lab can be made via the associated [Calendar](https://outlook.o
 
 ### Getting access to the calendar
 - The first time you request access to the lab, you can also request access to this calendar.
-- Any existing member of the functional mailbox can add new users via [this form](https://tudelft.topdesk.net/tas/public/ssp/content/serviceflow?unid=0c25377973d741b29e746348f5489d51&openedFromService=true).
+- Any existing member of the functional mailbox can add new users via [this form](https://tudelft.topdesk.net/tas/public/ssp/content/serviceflow?unid=5f4a681c63fa46aa85b42b8412f5e6c0&openedFromService=true).
 - External members and student can make bookings through their supervisors.
 
 ### Creating a booking
