@@ -56,6 +56,7 @@ See [this guide](network.md).
 - There is no reachable limit for the number of obstacles that can be added. The distributor showed tracking of 100 different objects.
 - use the [vicon_bridge](https://github.com/tud-amr/vicon_bridge) to get pose readings into ROS.
     - consider using a `robot_localization_ekf` to augment these pose estimates with velocity estimates (e.g. for MPC)
+- use the [vrpn_mocap_bridge](assets/vrpn_ros2_bridge_instructions.md) to get pose readings into ROS2s.
 
 ## Saving recording:
 - In Live mode (press space to put it in Paused mode) it is always streaming, but you can also record it.
