@@ -6,7 +6,7 @@ This page explains how to use the `vrpn_mocap` bridge to publish tracked pose, t
 2. How to isolate a robot and laptop on a shared Wi-Fi network using a custom ROS domain.
 
 ## 1. Overview
-Once the Vicon PC runs and successfully tracks one or more objects, as explained in [Vicon Motion Capture](mocap.md), a tracked object named `<tracker_name>` is published as:
+Once the Vicon PC runs and successfully tracks one or more objects, as explained in [Vicon Motion Capture](../mocap.md), a tracked object named `<tracker_name>` is published as:
 - `/vrpn_mocap/<tracker_name>/pose`
 - `/vrpn_mocap/<tracker_name>/twist`
 - `/vrpn_mocap/<tracker_name>/accel`
@@ -23,7 +23,7 @@ After sourcing ROS2, run:
 ``` 
 ros2 launch vrpn_mocap client.launch.yaml server:=192.168.0.232 port:=3883
 ```
-Assuming `192.168.0.232` is the IP adress of the of the Vicon PC, as explained in [Network](network.md), and `3883` the port.
+Assuming `192.168.0.232` is the IP adress of the of the Vicon PC, as explained in [Network](../network.md), and `3883` the port.
 
 All actively tracked objects on the Vicon PC will now be published as:
 - `/vrpn_mocap/<tracker_name>/pose`
